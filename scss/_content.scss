@@ -1,0 +1,89 @@
+.content {
+  position: relative;
+  overflow: hidden;
+  // background-image: url(/images/bg-curve-desktop.svg);
+  // background-repeat: no-repeat;
+
+  padding: 13rem 0;
+
+  &__background {
+    position: absolute;
+    left: -90%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 280%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  &__title {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  &__subtitle {
+    margin-bottom: 2rem;
+  }
+
+  &__img {
+    max-width: 100%;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 3rem;
+}
+
+.content__more {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+
+  &__link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--moderate-cyan);
+    border-bottom: 1px solid var(--moderate-cyan);
+    margin-bottom: 3rem;
+  }
+}
+
+.content__testimonial {
+  color: var(--very-dark-blue);
+  width: 70%;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+
+  .quotes {
+    margin-bottom: 1rem;
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .name {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    .job {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__desc {
+    margin-bottom: 1.5rem;
+  }
+
+  .testimonial__img {
+    width: 4.5rem;
+    border-radius: 50%;
+  }
+}

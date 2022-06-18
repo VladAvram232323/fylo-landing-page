@@ -1,0 +1,50 @@
+.grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.cta {
+  background-color: var(--desaturated-blue);
+  padding: 7rem 0;
+
+  &__title {
+    color: var(--light-grayish-blue);
+    margin-bottom: 1.5rem;
+  }
+
+  &__desc {
+    color: var(--light-gray);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    width: 40rem;
+    display: block;
+    padding: 1.2rem;
+    border-radius: 0.2rem;
+    border: 1.5px solid var(--very-dark-blue);
+    margin-bottom: 1rem;
+  }
+
+  .cta-started {
+    width: 50%;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    background-color: var(--bright-blue);
+    color: var(--light-grayish-blue);
+    transition: all 0.3s;
+  }
+
+  .cta-started:hover,
+  .cta-started:active {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
