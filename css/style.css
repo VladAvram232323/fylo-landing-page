@@ -51,6 +51,9 @@ header .nav-bar__element {
   text-decoration: none;
   color: var(--very-dark-blue);
 }
+header .nav-bar__element:hover {
+  text-decoration: underline;
+}
 
 main {
   display: grid;

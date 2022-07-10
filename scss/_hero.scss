@@ -13,6 +13,10 @@ header {
       text-decoration: none;
       color: var(--very-dark-blue);
     }
+
+    &__element:hover {
+      text-decoration: underline;
+    }
   }
 }
 
